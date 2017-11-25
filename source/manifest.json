@@ -4,16 +4,6 @@
   "name": "SchoolNotesCleaner",
   "description": "Deletes gray-ed out portions",
   "browser_action": {
-    "default_icon": "icon.png"
-    }
-
-
-    "content_scripts": [
-      {
-        "matches": [
-          "<all_urls>"
-        ],
-        "js": ["content.js"]
-      }
-    ]
-}
+  "default_icon": "icon.png"},
+  "permissions": ["http://new.schoolnotes.com/xpages/view/2770"]
+  }
