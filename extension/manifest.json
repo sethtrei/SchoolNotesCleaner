@@ -6,6 +6,9 @@
   "browser_action": {
     "default_icon": "icon.png"
     }
+  }
 
 
-}
+  {
+  "permissions": [ "http://new.schoolnotes.com/xpages/view/2770" ]
+  }
