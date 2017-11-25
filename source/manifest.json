@@ -5,5 +5,10 @@
   "description": "Deletes gray-ed out portions",
   "browser_action": {
   "default_icon": "icon.png"},
-  "permissions": ["http://new.schoolnotes.com/xpages/view/2770"]
-  }
+  "permissions": ["http://new.schoolnotes.com/xpages/view/2770"],
+  "content_scripts": [{   "matches": ["http://new.schoolnotes.com/xpages/view/2770"  ],
+                          "js": ["jquery.min.js","background.js"]
+                        }]
+
+
+}
